@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyColor (1.0.0)
+
+DEPENDENCIES:
+  - SwiftyColor (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  SwiftyColor: 7fa09db14051bc5d7f539e1c4576665975225992
+
+PODFILE CHECKSUM: a98e36acbbe36acb4e98089b504d7eda7991b318
+
+COCOAPODS: 1.2.0
