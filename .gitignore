@@ -12,3 +12,5 @@ vendor/
 fastlane/report.xml
 *.ipa
 *.dSYM.zip
+
+ApiKey.swift
