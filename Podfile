@@ -1,20 +1,33 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
 target 'Weather' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  
   use_frameworks!
 
   # Pods for Weather
+  
+  # Networking
+  pod 'Alamofire', '~> 4.5'
+  pod 'Moya', '~> 8.0'
+  pod 'Moya/RxSwift', '~> 8.0'
+  pod 'MoyaSugar', '~> 0.4'
+  pod 'MoyaSugar/RxSwift', '~> 0.4'
+  
+  # Model
+  pod 'ObjectMapper', '~> 2.2'
+  
+  # Rx
+  pod 'RxSwift', '~> 3.6'
+  pod 'RxCocoa', '~> 3.6'
+  
+  # Logging
+  pod 'CocoaLumberjack/Swift', '~> 3.2'
 
-  pod 'SwiftyColor', "~> 1.0.0"
+  # Misc
+  pod 'Then', '~> 2.1'
+  pod 'SwiftyColor', '~> 1.0'
 
   target 'WeatherTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'WeatherUITests' do
     inherit! :search_paths
     # Pods for testing
   end

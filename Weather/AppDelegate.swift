@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 
 import SwiftyColor
+import Then
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
