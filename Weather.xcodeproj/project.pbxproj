@@ -189,6 +189,7 @@
 		A75D5F751F4718EF005932E7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A75D5F941F496286005932E7 /* GooglePlacesController */,
 				A75D5F761F471917005932E7 /* WeatherList */,
 			);
 			name = ViewControllers;
@@ -251,6 +252,13 @@
 				A75D5F921F48BD1E005932E7 /* ObjectMapper+Rx.swift */,
 			);
 			name = Rx;
+			sourceTree = "<group>";
+		};
+		A75D5F941F496286005932E7 /* GooglePlacesController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GooglePlacesController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

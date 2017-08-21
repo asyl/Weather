@@ -13,8 +13,8 @@ enum DarkSkyAPI {
   case forecast(latitude: Double, longitude: Double)
 }
 
-/// uncomment & put your DarkSky secret key here:
-/// let darkSkyApiKey = ""
+// uncomment & put your DarkSky secret key here:
+// let darkSkyApiKey = ""
 
 extension DarkSkyAPI: SugarTargetType {
   

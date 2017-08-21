@@ -3,6 +3,13 @@ PODS:
   - CocoaLumberjack/Default (3.2.0)
   - CocoaLumberjack/Swift (3.2.0):
     - CocoaLumberjack/Default
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
   - Moya (8.0.5):
     - Moya/Core (= 8.0.5)
   - Moya/Core (8.0.5):
@@ -20,6 +27,8 @@ PODS:
     - MoyaSugar/Core
     - RxSwift (>= 3.0.0)
   - ObjectMapper (2.2.8)
+  - ReactorKit (0.5.3):
+    - RxSwift (>= 3.0.0)
   - Result (3.2.3)
   - RxCocoa (3.6.1):
     - RxSwift (~> 3.6)
@@ -30,11 +39,14 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - CocoaLumberjack/Swift (~> 3.2)
+  - GoogleMaps (= 2.4.0)
+  - GooglePlaces (= 2.4.0)
   - Moya (~> 8.0)
   - Moya/RxSwift (~> 8.0)
   - MoyaSugar (~> 0.4)
   - MoyaSugar/RxSwift (~> 0.4)
   - ObjectMapper (~> 2.2)
+  - ReactorKit (~> 0.5)
   - RxCocoa (~> 3.6)
   - RxSwift (~> 3.6)
   - SwiftyColor (~> 1.0)
@@ -43,15 +55,18 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
   Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
   MoyaSugar: 7cf45602d45d067834bd705001908d6444597b10
   ObjectMapper: 3d571bb5af471c779e1160828cd9ad5c4ef90958
+  ReactorKit: e6c5091baf9f2eee430b6e672ff1a74da9c83256
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
   RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
   SwiftyColor: 7fa09db14051bc5d7f539e1c4576665975225992
   Then: 8496793c8fcac95482b943909b440724c7d8d82c
 
-PODFILE CHECKSUM: 1659ddd243ce6fb88592cd9590a0ebeb3726d6a3
+PODFILE CHECKSUM: 4dafe8a04aa9ebceafc4e04254ad39112ab9a1c4
 
 COCOAPODS: 1.2.0
