@@ -23,6 +23,7 @@
 		A75D5F8E1F481003005932E7 /* DarkSkyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D5F8D1F481003005932E7 /* DarkSkyWeather.swift */; };
 		A75D5F901F48104D005932E7 /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D5F8F1F48104D005932E7 /* ModelType.swift */; };
 		A75D5F931F48BD1E005932E7 /* ObjectMapper+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D5F921F48BD1E005932E7 /* ObjectMapper+Rx.swift */; };
+		A75D5F971F4B60EF005932E7 /* WeatherListReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D5F961F4B60EF005932E7 /* WeatherListReactor.swift */; };
 		CE87174FFBE062F5BAEF0390 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4E48AEB9280B105AA71B75 /* Pods_Weather.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		A75D5F8D1F481003005932E7 /* DarkSkyWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DarkSkyWeather.swift; path = Models/DarkSkyWeather.swift; sourceTree = "<group>"; };
 		A75D5F8F1F48104D005932E7 /* ModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelType.swift; path = Models/ModelType.swift; sourceTree = "<group>"; };
 		A75D5F921F48BD1E005932E7 /* ObjectMapper+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ObjectMapper+Rx.swift"; path = "Rx/ObjectMapper+Rx.swift"; sourceTree = "<group>"; };
+		A75D5F961F4B60EF005932E7 /* WeatherListReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherListReactor.swift; path = ViewControllers/WeatherList/WeatherListReactor.swift; sourceTree = "<group>"; };
 		B2BCE50F5E748B37109B3F4D /* Pods_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D3311A44F14D71DC2425A7 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
 		BEAA15A1EF1A0F9A6264EC7C /* Pods-WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherTests/Pods-WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +191,6 @@
 		A75D5F751F4718EF005932E7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A75D5F941F496286005932E7 /* GooglePlacesController */,
 				A75D5F761F471917005932E7 /* WeatherList */,
 			);
 			name = ViewControllers;
@@ -199,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				A75D5F441F47173C005932E7 /* WeatherListController.swift */,
+				A75D5F961F4B60EF005932E7 /* WeatherListReactor.swift */,
 			);
 			name = WeatherList;
 			sourceTree = "<group>";
@@ -252,13 +254,6 @@
 				A75D5F921F48BD1E005932E7 /* ObjectMapper+Rx.swift */,
 			);
 			name = Rx;
-			sourceTree = "<group>";
-		};
-		A75D5F941F496286005932E7 /* GooglePlacesController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = GooglePlacesController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +500,7 @@
 				A75D5F901F48104D005932E7 /* ModelType.swift in Sources */,
 				A75D5F831F4757DC005932E7 /* ApiKey.swift in Sources */,
 				A75D5F451F47173C005932E7 /* WeatherListController.swift in Sources */,
+				A75D5F971F4B60EF005932E7 /* WeatherListReactor.swift in Sources */,
 				A75D5F931F48BD1E005932E7 /* ObjectMapper+Rx.swift in Sources */,
 				A75D5F431F47173C005932E7 /* AppDelegate.swift in Sources */,
 				A75D5F861F47FEAC005932E7 /* Logger.swift in Sources */,

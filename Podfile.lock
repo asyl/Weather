@@ -33,6 +33,9 @@ PODS:
   - RxCocoa (3.6.1):
     - RxSwift (~> 3.6)
   - RxSwift (3.6.1)
+  - RxViewController (0.2.0):
+    - RxCocoa (>= 3.0.0)
+    - RxSwift (>= 3.0.0)
   - SwiftyColor (1.0.0)
   - Then (2.1.0)
 
@@ -49,6 +52,7 @@ DEPENDENCIES:
   - ReactorKit (~> 0.5)
   - RxCocoa (~> 3.6)
   - RxSwift (~> 3.6)
+  - RxViewController (~> 0.2)
   - SwiftyColor (~> 1.0)
   - Then (~> 2.1)
 
@@ -64,9 +68,10 @@ SPEC CHECKSUMS:
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
   RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxViewController: 67cc7dde0f9e2ed941029eceec750c3ecb6ba74b
   SwiftyColor: 7fa09db14051bc5d7f539e1c4576665975225992
   Then: 8496793c8fcac95482b943909b440724c7d8d82c
 
-PODFILE CHECKSUM: 4dafe8a04aa9ebceafc4e04254ad39112ab9a1c4
+PODFILE CHECKSUM: 24e9276e59e51c97fa2de00897a21f952a2869c2
 
 COCOAPODS: 1.2.0

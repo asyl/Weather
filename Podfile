@@ -20,6 +20,7 @@ target 'Weather' do
   # Rx
   pod 'RxSwift', '~> 3.6'
   pod 'RxCocoa', '~> 3.6'
+  pod 'RxViewController', '~> 0.2'
   
   # Google API
   pod 'GooglePlaces', '= 2.4.0'

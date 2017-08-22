@@ -13,6 +13,7 @@ import GooglePlaces
 import GoogleMaps
 import SwiftyColor
 import Then
+import RxViewController
 
 
 @UIApplicationMain
@@ -24,10 +25,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     self.configureGoogleSDK()
     self.configureAppearance()
+    
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.makeKeyAndVisible()
     window?.backgroundColor = UIColor.wt_charcoal
-    window?.rootViewController = WeatherListController()
+    let darkSkyService = DarkSkyWeatherService()
+    let weatherReactor = WeatherListReactor(weatherService: darkSkyService)
+    window?.rootViewController = WeatherListController(reactor: weatherReactor)
     return true
   }
   
